@@ -634,7 +634,7 @@ footer .footer-copyright {
 @media (max-width: 830px) {
 
     header ul {
-        top: 100px;
+        top: 90px;
     }
 
     header .logo img {
@@ -671,7 +671,11 @@ footer .footer-copyright {
     }
 
     .hex-container .hex:hover .hex-shape {
-        transform: translateY(-20px);
+        transform: translateY(0px);
+    }
+
+    .hex-container .hex .hex-shape .content {
+        opacity: 1;
     }
 
     .hex-container .hex:nth-child(4),

@@ -512,6 +512,12 @@ footer .footer-icons a {
     justify-content: center;
 }
 
+footer .footer-icons img {
+    width: 20px;
+    height: 20px;
+    filter: invert(100%);
+}
+
 footer .footer-icons a:nth-child(5) {
     margin-right: 0px;
 }
@@ -519,6 +525,10 @@ footer .footer-icons a:nth-child(5) {
 footer .footer-icons a:hover {
     color: #19a7ce;
     background-color: #fff;
+}
+
+footer .footer-icons a:hover img {
+    filter: invert(0%);
 }
 
 footer .footer-copyright {
